@@ -67,11 +67,11 @@ new_file = open("analysis/results.txt", "w")
 new_file.write("Financial Analysis \n")
 new_file.write("----------------------\n")
 
-new_file.write("Total Months: " + str(total_months))
-new_file.write("Total: $" + str(total_amount))
-new_file.write("Average Change: $" + str(round(average_change, 2)))
-new_file.write("Greatest Increase in Profits: " + greatest_increase_month + " $" + str(greatest_increase))
-new_file.write("Greatest Decrease in Profits: " + greatest_decrease_month + " $" + str(greatest_decrease))
+new_file.write("Total Months: " + str(total_months) + "\n")
+new_file.write("Total: $" + str(total_amount) + "\n")
+new_file.write("Average Change: $" + str(round(average_change, 2)) + "\n")
+new_file.write("Greatest Increase in Profits: " + greatest_increase_month + " $" + str(greatest_increase) + "\n")
+new_file.write("Greatest Decrease in Profits: " + greatest_decrease_month + " $" + str(greatest_decrease) + "\n")
 
 #close new_file
 new_file.close()
